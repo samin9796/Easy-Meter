@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.ahnafmozib.easymeterreading.Exit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="50dp"
+                android:padding="16dp"
+                android:src="@drawable/working_man" />
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginStart="13dp"
+               android:layout_marginTop="50dp"
+               android:text="Your given information have been stored."
+               android:textColor="#ffffff"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+
+
+            <Button
+                android:id="@+id/ExitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_login"
+                android:text="Exit"
+                android:textColor="#f16f7d"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_margin="24dp"
+                android:textSize="18sp"
+
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

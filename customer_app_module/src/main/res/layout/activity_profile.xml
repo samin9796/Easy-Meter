@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8d6f6"
+    tools:context="com.example.ahnafmozib.customerapp.Profile">
+
+    <TextView
+        android:id="@+id/NameinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="59dp"
+        android:text="Name :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/NameShowinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/NameinProfile"
+        android:layout_alignBottom="@+id/NameinProfile"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/NameinProfile"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mr.Azizul Hoque"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/AddressinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/NameinProfile"
+        android:layout_below="@+id/NameShowinProfile"
+        android:layout_marginTop="28dp"
+        android:text="Address :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/AddressShowinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/AddressinProfile"
+        android:layout_alignBottom="@+id/AddressinProfile"
+        android:layout_alignEnd="@+id/NameShowinProfile"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sylhet"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/MeterIdinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AddressinProfile"
+        android:layout_below="@+id/AddressShowinProfile"
+        android:layout_marginTop="39dp"
+        android:text="Meter ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/MeterIdShowinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MeterIdinProfile"
+        android:layout_alignBottom="@+id/MeterIdinProfile"
+        android:layout_alignEnd="@+id/AddressShowinProfile"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="6789"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/CustomerIdinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MeterIdinProfile"
+        android:layout_below="@+id/MeterIdShowinProfile"
+        android:layout_marginTop="46dp"
+        android:text="Customer ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/CustomerIdShowinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CustomerIdinProfile"
+        android:layout_alignBottom="@+id/CustomerIdinProfile"
+        android:layout_toEndOf="@+id/CustomerIdinProfile"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="9887"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/MobileNoinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/CustomerIdinProfile"
+        android:layout_below="@+id/CustomerIdShowinProfile"
+        android:layout_marginTop="36dp"
+        android:text="Mobile No :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/MobileNoShowinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MobileNoinProfile"
+        android:layout_alignBottom="@+id/MobileNoinProfile"
+        android:layout_alignEnd="@+id/MeterIdShowinProfile"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="8801789654356"
+        android:textSize="18dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonDoneinProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MobileNoShowinProfile"
+        android:layout_below="@+id/MobileNoShowinProfile"
+        android:layout_marginTop="28dp"
+        android:text="Done"
+        android:textColor="#fdfbfb"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#130b67"
+        />
+</RelativeLayout>

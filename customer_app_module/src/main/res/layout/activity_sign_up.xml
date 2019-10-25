@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8d6f6"
+    tools:context="com.example.ahnafmozib.customerapp.signUp">
+
+    <TextView
+        android:id="@+id/nameofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="20dp"
+        android:text="Name :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/NameShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameofSignUp"
+        android:layout_alignBottom="@+id/nameofSignUp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mr.Azizul Hoque"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/AddressOfSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameofSignUp"
+        android:layout_below="@+id/NameShowofSignUp"
+        android:text="Address :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/AddressInputofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofSignUp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/AddressOfSignUp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="12, Nobab Road, Sylhet."
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/MeterIdofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddressInputofSignUp"
+        android:layout_toStartOf="@+id/AddressInputofSignUp"
+        android:text="Meter ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/MeterIDShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AddressInputofSignUp"
+        android:layout_below="@+id/AddressOfSignUp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="23432"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/SamityNoOfSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MeterIdofSignUp"
+        android:layout_below="@+id/MeterIDShowofSignUp"
+        android:text="Samity No :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/SamityNoShowOfSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MeterIDShowofSignUp"
+        android:layout_below="@+id/MeterIdofSignUp"
+        android:layout_marginStart="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="9343"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/EmailofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EmailShowofSignUp"
+        android:layout_alignBottom="@+id/EmailShowofSignUp"
+        android:layout_alignStart="@+id/SamityNoOfSignUp"
+        android:text="Email ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EmailShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SamityNoOfSignUp"
+        android:layout_toEndOf="@+id/SamityNoOfSignUp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="azizul2018@gmail.com"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/PasswordofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AddressOfSignUp"
+        android:layout_below="@+id/EmailShowofSignUp"
+        android:text="Password :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/PasswordShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/SamityNoShowOfSignUp"
+        android:layout_below="@+id/EmailofSignUp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="******"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/CustomerIDofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/EmailofSignUp"
+        android:layout_centerVertical="true"
+        android:text="Customer ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/CustomerIDShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/PasswordShowofSignUp"
+        android:layout_below="@+id/PasswordofSignUp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="4556"
+        android:textSize="20dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/MobileNoOfSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PasswordofSignUp"
+        android:layout_below="@+id/CustomerIDShowofSignUp"
+        android:text="Mobile No :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/MobileNoShowofSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CustomerIDofSignUp"
+        android:layout_toEndOf="@+id/CustomerIDofSignUp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="88017845231"
+        />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:background="#130b67"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textColor="#fdfbfb"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

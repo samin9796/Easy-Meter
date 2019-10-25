@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8d6f6"
+    tools:context="com.example.ahnafmozib.customerapp.Feedback">
+
+    <TextView
+        android:id="@+id/FeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Feedback"
+        android:textColor="#10731a"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/GiveFeedback"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FeedbackTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonSubmitinFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:background="#130b67"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textColor="#fafaf8"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</RelativeLayout>

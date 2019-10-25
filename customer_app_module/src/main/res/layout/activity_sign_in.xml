@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#c8d6f6"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahnafmozib.customerapp.SignIn">
+
+    <TextView
+        android:id="@+id/EmailofSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:text="Email ID :"
+        android:textColor="#154a52"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EmailInputOfSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/EmailofSignIn"
+        android:layout_below="@+id/EmailofSignIn"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/PasswordOfSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/EmailInputOfSignIn"
+        android:layout_below="@+id/EmailInputOfSignIn"
+        android:layout_marginTop="25dp"
+        android:text="Password :"
+        android:textColor="#154a52"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/PasswordOfSignInInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PasswordOfSignIn"
+        android:layout_below="@+id/PasswordOfSignIn"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonNextOfSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="#130b67"
+        android:text="Next"
+        android:textColor="#fdfbfb"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="#130b67"
+        android:padding="10dp"
+        android:text="Sign Up"
+        android:textColor="#fdfbfb"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

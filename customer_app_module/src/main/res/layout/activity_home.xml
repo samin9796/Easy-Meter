@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c8d6f6"
+    tools:context="com.example.ahnafmozib.customerapp.Home">
+
+
+    <ListView
+        android:id="@+id/listView"
+
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true" />
+
+    <TextView
+        android:id="@+id/MeterIdofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/listView"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="29dp"
+        android:text="Meter ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/MeterIDShowofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MeterIdofHome"
+        android:layout_alignBottom="@+id/MeterIdofHome"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/MeterIdofHome"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="23567"
+        android:textSize="25dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/CustomerIdofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MeterIdofHome"
+        android:layout_below="@+id/MeterIDShowofHome"
+        android:layout_marginTop="34dp"
+        android:text="Customer ID :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/CustomerIDShowofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CustomerIdofHome"
+        android:layout_alignBottom="@+id/CustomerIdofHome"
+        android:layout_toEndOf="@+id/CustomerIdofHome"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="3456"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/LastReadingDateofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/CustomerIdofHome"
+        android:layout_below="@+id/CustomerIDShowofHome"
+        android:layout_marginTop="39dp"
+        android:text="Last Reading Date :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/LastReadingDateShowofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LastReadingDateofHome"
+        android:layout_alignBottom="@+id/LastReadingDateofHome"
+        android:layout_toEndOf="@+id/LastReadingDateofHome"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="23-05-2018"
+        android:textSize="25dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/LastReadingofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/LastReadingDateofHome"
+        android:layout_below="@+id/LastReadingDateShowofHome"
+        android:layout_marginTop="31dp"
+        android:text="Last Reading :"
+        android:textColor="#154a52"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/LastReadingShowofHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LastReadingofHome"
+        android:layout_alignBottom="@+id/LastReadingofHome"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/LastReadingofHome"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2344"
+        android:textSize="25dp"
+        android:padding="10dp"
+        />
+
+</RelativeLayout>
